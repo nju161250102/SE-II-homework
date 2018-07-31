@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d31d6499-164a-47c8-b028-9040cea44a21" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ERPnju_Client.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/Client.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/build.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/config/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/lib/DataChooser.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/lib/TableLayout.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/lib/poi-3.17.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/Start.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/bl_stub/AccountBL_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/bl_stub/CategoryBL_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/bl_stub/CommodityBL_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/bl_stub/CustomerBL_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/bl_stub/LogBL_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/bl_stub/UserBL_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/AccountBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/CategoryBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/CommodityBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/CustomerBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/DataBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/InitBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/InventoryDynamicBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/LogBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/LoginBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/MailBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/PromotionBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/SalesDetailsBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/UserBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/ViewBusinessSituationBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/billblservice/BillCreateBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/billblservice/BillExamineService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/billblservice/BillOperationService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/billblservice/BillSearchBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/billblservice/CashCostBillBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/billblservice/ChangeBillBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/billblservice/PaymentBillBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/billblservice/PurchaseBillBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/billblservice/PurchaseReturnBillBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/billblservice/ReceiptBillBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/billblservice/SalesBillBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/billblservice/SalesReturnBillBLService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/infoservice/GetAccountInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/infoservice/GetCategoryInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/infoservice/GetCommodityInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/infoservice/GetCustomerInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/infoservice/GetPromotionInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/blservice/infoservice/GetUserInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/AccountBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/BillExamineBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/BillOperationBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/BillSearchBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/BillTools.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/CashCostBillBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/CategoryBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/ChangeBillBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/CommodityBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/CustomerBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/GiftBillBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/GiftItemTools.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/InitBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/InventoryDynamicBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/LogBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/LoginBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/MailBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/PaymentBillBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/PromotionBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/PurchaseBillBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/PurchaseReturnBillBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/ReceiptBillBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/SalesBillBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/SalesDetailsBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/SalesReturnBillBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/UserBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/ViewBusinessSituationBL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/best_promotion/BestGroupDiscount.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/best_promotion/BestRankPromotion.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/best_promotion/BestSumPromotion.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/inter/AddLogInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/inter/GiftBillCreation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/inter/IBestPromotion.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/businesslogic/inter/IPromotionSearch.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/AccountDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/BillSearchDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/CashCostBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/CategoryDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/ChangeBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/CommodityDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/CustomerDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/GiftBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/InitDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/LogDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/MailDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/PaymentBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/PromotionDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/PurchaseBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/PurchaseReturnBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/ReceiptBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/SalesBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/SalesReturnBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/dataservice/UserDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/AccountDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/BillSearchDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/CashCostBillDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/CashCostDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/CategoryDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/ChangeBillDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/CommodityDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/CustomerDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/GiftBillDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/InitDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/LogDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/MailDataDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/PaymentBillDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/PromotionDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/PurchaseBillDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/PurchaseReturnBillDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/ReceiptBillDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/SalesBillDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/SalesReturnBillDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/ds_stub/UserDs_stub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/AccountPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/CategoryPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/CommodityPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/CustomerPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/GroupDiscountPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/LogInfoPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/MailPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/PromotionPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/RankPromotionPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/SumPromotionPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/UserPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/BillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/CashCostBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/CashCostItem.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/ChangeBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/ChangeItem.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/CommdityItem.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/GiftBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/GiftItem.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/PaymentBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/PurchaseBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/PurchaseReturnBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/ReceiptBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/SalesBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/SalesItemsPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/SalesReturnBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/po/billpo/TransferItem.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/LoginWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/PanelInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/analysisui/AnalysisDriver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/analysisui/BusinessProcessPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/analysisui/CopyBillViewer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/analysisui/InventoryCheckPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/analysisui/InventoryDynamicPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/analysisui/SalesDetailsPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/analysisui/ViewBusinessHistoryPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/analysisui/ViewBusinessSituationPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/BillExaminePanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/BillPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/BillPanelHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/BillPanelInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/BillViewer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/CashCostBillPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/ChangeBillPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/CommonSaleBillPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/GiftBillPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/InputCashCostItemInfoWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/InputCommodityInfoWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/InputTransferItemInfoWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/PurchaseBillPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/PurchaseReturnBillPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/ReceiptOrPaymentBillPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/SalesBillPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/billui/SalesReturnBillPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/CloseListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/DateChoosePanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/IdNamePanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/InfoAdapter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/InfoWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/LFPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/TopButtonPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/choosewindow/AccountChooseWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/choosewindow/BillChooseWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/choosewindow/CategoryChooseWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/choosewindow/ChooseWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/choosewindow/CommodityChooseWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/choosewindow/CustomerChooseWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/choosewindow/PurchaseBillChooseWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/choosewindow/SalesBillChooseWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/component/choosewindow/UserChooseWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/DataPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/DataPanelInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/FatherWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/SearchWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/accountui/AccountDataPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/accountui/AddAccountWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/accountui/InputAccountPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/accountui/SearchAccountWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/accountui/UpdateAccountWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/categoryui/AddCategoryWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/categoryui/CategoryDataPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/categoryui/InputCategoryPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/categoryui/UpdateCategoryWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/categoryui/ViewCommodityWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/commodityui/AddCommodityWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/commodityui/CommodityDataPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/commodityui/InputCommodityPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/commodityui/SearchCommodityWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/commodityui/UpdateCommodityWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/customerui/AddCustomerWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/customerui/CustomerDataPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/customerui/InputCustomerPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/customerui/SearchCustomerWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/customerui/UpdateCustomerWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/userui/AddUserWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/userui/InputUserPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/userui/SearchUserWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/userui/UpdateUserWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/userui/UserDataPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/dataui/util/Tools.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/driver/GiftBillPanelDriver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/driver/PromotionPanelDriver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/initui/InitChooseWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/initui/InitPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/logui/LogPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/logui/SearchWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/mailui/MailPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/mailui/NewMailWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/mailui/OneMailPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/main/LeftButtonPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/main/MainPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/main/MainWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/BasicPromotionInfoPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/CenterPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/DetailGroupDiscountPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/DetailRankPromotionPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/DetailSumPromotionPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/EditPromotionWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/GiftInputWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/GiftTable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/GroupDiscountPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/PromotionDetailPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/PromotionPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/PromotionSearchWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/RankPromotionPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/SearchResultPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/SumPromotionPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/ViewGiftTable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/promotionui/ViewPromotionDetailWin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/tools/DoubleField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/tools/ExcelExporter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/tools/InputCheck.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/tools/IntField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/tools/MyField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/tools/StyleTools.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/tools/TableTools.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/presentation/tools/Timetools.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/AddButton.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/AddData.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/Caption.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/ChangeData.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/Close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/Commit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/DeleteButton.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/DeleteData.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/Examine.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/Export.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/FreshButton.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/Init.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/LeftButtonPanel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/LoginBG.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/LoginIcon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/MainBG.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/New.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/NotExamine.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/NotPass.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/Offset.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/OffsetCopy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/PromotionA.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/PromotionB.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/PromotionC.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/ReadAll.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/Refresh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/Save.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/SearchData.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/SendMail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/resource/mouse.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/rmi/Rmi.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/rmi/SMRMISocket.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/test/ViewBusinessSituationBLTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/AccountVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/CategoryVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/CommodityVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/CustomerVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/GroupDiscountVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/LogInfoVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/MailVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/MyTableModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/PromotionVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/RankPromotionVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/SumPromotionVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/UserType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/UserVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/billvo/BillVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/billvo/CashCostBillVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/billvo/ChangeBillVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/billvo/GiftBillVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/billvo/MarketBillVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/billvo/PaymentBillVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/billvo/PurchaseBillVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/billvo/PurchaseReturnBillVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/billvo/ReceiptBillVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/billvo/SalesBillVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Client/src/vo/billvo/SalesReturnBillVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/Server.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/Start.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/AccountData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/BillDataHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/BillSearchData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/CashCostBillData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/CategoryData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/ChangeBillData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/CommodityData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/CustomerData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/DataHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/GiftBillData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/InitData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/LogData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/MailData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/PaymentBillData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/PromotionData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/PurchaseBillData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/PurchaseReturnBillData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/ReceiptBillData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/SQLQueryHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/SaleReturnBillData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/SalesBillData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/data/UserData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/AccountDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/BillSearchDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/CashCostBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/CategoryDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/ChangeBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/CommodityDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/CustomerDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/GiftBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/InitDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/LogDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/MailDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/PaymentBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/PromotionDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/PurchaseBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/PurchaseReturnBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/ReceiptBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/SalesBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/SalesReturnBillDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/dataservice/UserDataService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/AccountPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/CategoryPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/CommodityPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/CustomerPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/GroupDiscountPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/LogInfoPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/MailPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/PromotionPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/RankPromotionPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/SumPromotionPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/UserPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/BillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/CashCostBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/CashCostItem.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/ChangeBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/ChangeItem.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/GiftBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/GiftItem.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/PaymentBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/PurchaseBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/PurchaseReturnBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/ReceiptBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/SalesBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/SalesItemsPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/SalesReturnBillPO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/po/billpo/TransferItem.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/rmi/RemoteHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Server/src/rmi/SMRMISocket.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/00_全局_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/01_单据管理_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/02_商品分类管理_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/03_商品管理_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/04_库存管理_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/05_库存调整_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/06_客户管理_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/07_制定进货单_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/08_制定进货退货单_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/09_制定销售单_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/10_制定销售退货单_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/11_银行账户管理_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/12_制定收付款单_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/13_制定现金费用单_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/14_查看销售明细表_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/15_查看经营状况表_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/16_查看经营历程表_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/17_期初建账_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/19_审批单据_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/20_制定促销策略_概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/ConceptClassDiagrams/概念类图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/AccountAddSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/AccountAddStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/AccountDelSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/AccountDelStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/AccountFindSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/AccountFindStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/AccountModule.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/AccountUpdateSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/AccountUpdateStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/BillBLClass.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/BillCreationStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/BillManagementDeleteSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/BillManagementDeleteStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/BillManagementExamineSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/BillManagementExamineStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/BillManagementOffsetSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/BillManagementUpdateStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/BillSearchFindByIdSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/BillSearchFindByTimeSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/BillSearchGetAllSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/BillSearchSTM.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CategoryAddSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CategoryAddStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CategoryBLClass.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CategoryDelSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CategoryDelStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CategoryFindSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CategoryFindStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CategoryModule.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CategoryUpdateSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CategoryUpdateStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CommodityAddSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CommodityAddStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CommodityDelSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CommodityDelStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CommodityFindSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CommodityFindStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CommodityModule.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CommodityUpdateSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CommodityUpdateStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CustomerAddSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CustomerAddStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CustomerDelSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CustomerDelStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CustomerFindSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CustomerFindStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CustomerModule.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CustomerUpdateSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/CustomerUpdateStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/FinanceBillCreationSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/InitBLClass.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/InitBLModel1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/InitBLModel2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/InitBLModel3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/InitBLModel4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/LogBLClass.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/LogBLModel1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/LogBLModel2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/LogBLModel3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/LogBLModel4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/SaleBillCreationSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/StockBillCreationSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/UserAddSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/UserAddStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/UserDelSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/UserDelStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/UserFindSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/UserFindStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/UserModule.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/UserUpdateSd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/UserUpdateStm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/analysis模块各个类的设计.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/promotion模块各个类的设计.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/修改促销策略的顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/删除促销策略的顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/增加新促销策略的状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/增加新促销策略的顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/显示经营历程表的状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/显示经营历程表的顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/更新促销策略的状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/查找促销策略的状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/查找促销策略的顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/查看促销策略详情的状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/DesignDiagrams/查看促销策略详情的顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/01_单据管理_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/02_商品分类管理_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/03_商品管理_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/04_库存管理_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/05_库存调整_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/06_客户管理_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/07_制定进货单_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/08_制定进货退货单_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/09_制定销售单_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/10_制定销售退货单_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/11_银行账户管理_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/12_制定收付款单_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/13_制定现金费用单_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/14_查看销售明细表_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/15_查看经营状况表_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/16_查看经营历程表_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/17_期初建账_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/18_查看日志_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/19_审批单据_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/20_制定促销策略_系统顺序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/SequenceDiagrams/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StateDiagrams/02_商品分类管理_状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StateDiagrams/03_商品管理_状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StateDiagrams/06_制定进退货单_状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StateDiagrams/06_客户管理_状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StateDiagrams/09_制定销售单_状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StateDiagrams/10_制定销售退货单_状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StateDiagrams/11_银行账户管理_状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StateDiagrams/12_制定收付款单_状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StateDiagrams/12_查看统计分析_状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StateDiagrams/13_制定现金费用单_状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StateDiagrams/17_期初建账_状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StateDiagrams/19_审批单据_状态图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StructureDiagrams/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StructureDiagrams/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StructureDiagrams/clientModel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StructureDiagrams/deployPic.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StructureDiagrams/packagePic1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StructureDiagrams/packagePic2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StructureDiagrams/packagePic3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StructureDiagrams/packagePic4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StructureDiagrams/processPic.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StructureDiagrams/serverModel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StructureDiagrams/userview.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/StructureDiagrams/viewJump.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/01_商品分类管理_界面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/02_商品管理_界面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/03_库存管理_界面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/04_库存警报_界面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/05_客户管理_界面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/06_制定进货单_界面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/06_制定进货退货单_界面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/07_制定销售单_界面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/08_制定销售退货单_界面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/09_账户管理_界面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/主界面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/制定促销策略.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/制定收付款单.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/制定现金费用单.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/制定进货单.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/制定进货退货单.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/制定销售单.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/制定销售退货单.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/商品分类管理.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/商品管理.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/审批单据.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/客户管理.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/库存查看.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/库存盘点.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/库存调整.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/期初建账1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/期初建账2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/期初建账3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/查看日志.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/查看经营历程表.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/查看经营状况表.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/查看销售明细表.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/登录界面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UI/账户管理.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UseCaseDiagrams/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UseCaseDiagrams/AllUserCases.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/img/UseCaseDiagrams/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/md/体系结构设计文档_v2.1.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/md/用例文档_v2.3.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/md/详细设计描述文档_v2.0.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/md/需求度量文档_v2.0.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/md/需求测试用例文档_v1.0.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/md/需求规格说明文档_v2.3.md" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Start.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/Start.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginWindow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Client/src/presentation/LoginWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="74" column="41" lean-forward="false" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Client/.gitignore" />
+        <option value="$PROJECT_DIR$/Client/src/Start.java" />
+        <option value="$PROJECT_DIR$/Client/src/presentation/LoginWindow.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="40" />
+    <option name="width" value="860" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SE-II-homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SE-II-homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SE-II-homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programs\SE-II-homework\Client\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Start (1)">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="Start (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Start" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Client" />
+      <envs />
+    </configuration>
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Start" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Server" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Start" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Start (1)" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Start (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d31d6499-164a-47c8-b028-9040cea44a21" name="Default" comment="" />
+      <created>1533039306217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533039306217</updated>
+      <workItem from="1533039316817" duration="1985000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1985000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/test/ViewBusinessSituationBLTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/presentation/component/IdNamePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="93" column="12" lean-forward="false" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
+          <folding>
+            <element signature="e#1545#1546#0" expanded="false" />
+            <element signature="e#1585#1586#0" expanded="false" />
+            <element signature="e#1624#1625#0" expanded="false" />
+            <element signature="e#1664#1665#0" expanded="false" />
+            <element signature="e#1710#1711#0" expanded="false" />
+            <element signature="e#1754#1755#0" expanded="false" />
+            <element signature="e#1785#1786#0" expanded="false" />
+            <element signature="e#1818#1819#0" expanded="false" />
+            <element signature="e#1859#1860#0" expanded="false" />
+            <element signature="e#1894#1895#0" expanded="false" />
+            <element signature="e#1937#1938#0" expanded="false" />
+            <element signature="e#1974#1975#0" expanded="false" />
+            <element signature="e#2006#2007#0" expanded="false" />
+            <element signature="e#2056#2057#0" expanded="false" />
+            <element signature="e#2093#2094#0" expanded="false" />
+            <element signature="e#2145#2146#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/presentation/billui/BillExaminePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2672">
+          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/presentation/analysisui/ViewBusinessHistoryPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="45" column="51" lean-forward="true" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/javax/swing/ImageIcon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="216" column="0" lean-forward="false" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+          <folding>
+            <element signature="e#6758#6759#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/resource/New.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/resource/Init.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/resource/Save.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/resource/Close.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/resource/mouse.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/resource/Commit.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/resource/Export.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/resource/MainBG.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/resource/Offset.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/resource/AddData.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/presentation/LoginWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="74" column="41" lean-forward="false" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

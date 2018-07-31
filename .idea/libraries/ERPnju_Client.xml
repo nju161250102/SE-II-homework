@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ERPnju-Client">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Client/build/jar/ERPnju-Client.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
